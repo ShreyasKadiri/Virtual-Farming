@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SignUpActivity"
+    android:gravity="center"
+    android:id="@+id/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="60"
+    android:background="@drawable/ic_l2">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_l3" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/signUpFarmerButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up as Farmer"
+            android:layout_marginBottom="50dp"/>
+
+        <Button
+            android:id="@+id/signUpClientButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up as Client" />
+
+    </LinearLayout>
+
+</RelativeLayout>
